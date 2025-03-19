@@ -1,0 +1,58 @@
+[
+  {
+    "titolo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "url_cover": "https://m.media-amazon.com/images/I/61R7gJadP7L._UF1000,1000_QL80_.jpg",
+    "anno_pubblicazione": 1973,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "Thriller",
+    "artista": "Michael Jackson",
+    "url_cover": "https://m.media-amazon.com/images/I/81ogsUqshzL._UF1000,1000_QL80_.jpg",
+    "anno_pubblicazione": 1982,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "Back in Black",
+    "artista": "AC/DC",
+    "url_cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/ACDC_Back_in_Black.png/1200px-ACDC_Back_in_Black.png",
+    "anno_pubblicazione": 1980,
+    "genere": "Hard Rock"
+  },
+  {
+    "titolo": "Nevermind",
+    "artista": "Nirvana",
+    "url_cover": "https://m.media-amazon.com/images/I/61IwAnDdh2L.jpg",
+    "anno_pubblicazione": 1991,
+    "genere": "Grunge"
+  },
+  {
+    "titolo": "Abbey Road",
+    "artista": "The Beatles",
+    "url_cover": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Beatles_-_Abbey_Road.jpg/250px-Beatles_-_Abbey_Road.jpg",
+    "anno_pubblicazione": 1969,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "The Wall",
+    "artista": "Pink Floyd",
+    "url_cover": "https://i.scdn.co/image/ab67616d0000b2735d48e2f56d691f9a4e4b0bdf",
+    "anno_pubblicazione": 1979,
+    "genere": "Progressive Rock"
+  },
+  {
+    "titolo": "Rumours",
+    "artista": "Fleetwood Mac",
+    "url_cover": "https://m.media-amazon.com/images/I/71HWqbh0BLL._UF1000,1000_QL80_.jpg",
+    "anno_pubblicazione": 1977,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "Hotel California",
+    "artista": "Eagles",
+    "url_cover": "https://m.media-amazon.com/images/I/71rYYgYnr2L.jpg",
+    "anno_pubblicazione": 1976,
+    "genere": "Rock"
+  }
+]
