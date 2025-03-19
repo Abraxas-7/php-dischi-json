@@ -21,9 +21,37 @@ $music = json_decode($json_music, true);
     </header>
 
     <main>
-        <div class="container">
-            <div class="row g-3">
+        <div class="container py-5">
+            <h2 class="py-3">Aggiungi un nuovo disco</h2>
+            <form action="server.php" method="POST">
+                <div class="row g-3 mb-5">
+                    <div class="col-4">
+                        <label for="disk_name" class="form-label">inserisci il nome del disco</label>
+                        <input type="text" class="form-control" id="disk_name" name="disk_name">
+                    </div>
+                    <div class="col-8">
+                        <label for="disk_cover" class="form-label">inserisci l'url</label>
+                        <input type="text" class="form-control" id="disk_cover" name="disk_cover">
+                    </div>
+                    <div class="col-4">
+                        <label for="disk_artist" class="form-label">inserisci il nome dell'artista</label>
+                        <input type="text" class="form-control" id="disk_artist" name="disk_artist">
+                    </div>
+                    <div class="col-4">
+                        <label for="disk_genre" class="form-label">inserisci il genere</label>
+                        <input type="text" class="form-control" id="disk_genre" name="disk_genre">
+                    </div>
+                    <div class="col-4">
+                        <label for="disk_year" class="form-label">inserisci l'anno di uscita</label>
+                        <input type="text" class="form-control" id="disk_year" name="disk_year">
+                    </div>
 
+                    <input type="submit" class="btn btn-primary col-12" value="Aggiungi">
+                </div>
+            </form>
+
+            <h2 class="py-3">Lista dischi</h2>
+            <div class="row g-3">
                 <?php
                 foreach ($music as $disco) {
                     echo '

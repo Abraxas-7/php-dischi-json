@@ -1,12 +1,5 @@
 [
   {
-    "titolo": "The Dark Side of the Moon",
-    "artista": "Pink Floyd",
-    "url_cover": "https://m.media-amazon.com/images/I/61R7gJadP7L._UF1000,1000_QL80_.jpg",
-    "anno_pubblicazione": 1973,
-    "genere": "Rock"
-  },
-  {
     "titolo": "Thriller",
     "artista": "Michael Jackson",
     "url_cover": "https://m.media-amazon.com/images/I/81ogsUqshzL._UF1000,1000_QL80_.jpg",
@@ -54,5 +47,12 @@
     "url_cover": "https://m.media-amazon.com/images/I/71rYYgYnr2L.jpg",
     "anno_pubblicazione": 1976,
     "genere": "Rock"
+  },
+  {
+    "titolo": "THE BIGGEST SBLAO",
+    "artista": "Low-Red",
+    "url_cover": "https://i.scdn.co/image/ab67616d0000b2733fe8d806c65d2be6dd0e45d9",
+    "anno_pubblicazione": "2024",
+    "genere": "Rap"
   }
 ]
