@@ -1,5 +1,7 @@
 <?php
 
+require_once('./functions.php');
+
 $new_disk = [
     'titolo' => $_POST['disk_name'],
     'artista' => $_POST['disk_artist'],
@@ -10,15 +12,15 @@ $new_disk = [
 
 // var_dump($new_disk);
 
-//aggiunta di un nuovo disco
-$json_music = file_get_contents('./music.json');
+//AGGIUNTA NUOVO DISCO
+//recupero 
+$music = get_disks();
 
-$music = json_decode($json_music, true);
-
+//aggiunta 
 $music[] = $new_disk;
 
+//encoding e salvataggio
 $json_music = json_encode($music);
-
 $json_music = file_put_contents('./music.json', $json_music);
 
 //redirect
